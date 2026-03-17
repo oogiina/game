@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Хайч Чулуу Даавуу</title>
+<link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+<p class="title">Хайч-Чулуу-Даавуу</p>
+
+
+<button class="move-button js-haich-button">
+    <img src="images/haich.emoji.png" alt="Хайч" class="move-icon">
+</button>
+
+<button class="move-button js-chuluu-button">
+    <img src="images/chuluu.emoji.png" alt="Чулуу" class="move-icon">
+</button>
+
+<button class="move-button js-daawuu-button">
+    <img src="images/daawuu.emoji.png" alt="Даавуу" class="move-icon">
+</button>
+
+<p class="result">Үр дүн:</p>
+
+
+<p class="js-score score"> </p>
+
+<p class="js-moves">Та болон Компьютер</p> 
+<button onclick="score.yalalt = 0;
+score.ylagdal = 0;
+localStorage.removeItem('score');
+updateSCoreElement();
+"
+class="reset-score-button">Сэргээх</button>
+
+<button class="auto-play-button">Автоматаар тоглуулах</button>
+
+<script src="script/app.js"></script>
+</body>
+</html>

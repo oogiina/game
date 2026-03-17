@@ -1,0 +1,112 @@
+body {
+    text-align: center;
+    background-color: 898989;
+    color: bisque;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 20px;
+}
+
+
+p {
+    font-size: 35px;
+    color: brown;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.title {
+    color: navy;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px; 
+}
+
+
+.move-icon {
+    width: 60px;
+    height: 60px;
+    pointer-events: none; 
+}
+
+
+.move-button {
+    background-color: black;
+    border: 3px solid goldenrod;
+    width: 130px;
+    height: 130px;
+    border-radius: 70px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.move-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+}
+
+
+.js-moves {
+    font-size: 25px;
+    font-weight: bold;
+    color: darkblue;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px; 
+}
+
+
+.result {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 30px 0;
+    color: darkred;
+}
+
+
+.auto-play-button {
+    background-color: pink;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: opacity 0.15s, transform 0.15s;
+}
+
+.auto-play-button:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+}
+
+.auto-play-button:active {
+    opacity: 0.5;
+}
+
+
+.reset-score-button {
+    background-color: brown;
+    color: aliceblue;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: opacity 0.15s, transform 0.15s;
+}
+
+.reset-score-button:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+}
+
+.reset-score-button:active {
+    opacity: 0.5;
+    transform: scale(1);
+}
