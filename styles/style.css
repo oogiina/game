@@ -14,7 +14,16 @@ p {
     text-align: center;
     margin: 20px 0;
 }
-
+#container{
+    position: relative;
+    background: pink;
+    width: 500px;
+     height: 600px;
+     top: 50px;
+     left: 30px;
+     padding: 20px 30px;
+     border-radius: 70px;
+}       
 .title {
     color: navy;
     font-size: 40px;
